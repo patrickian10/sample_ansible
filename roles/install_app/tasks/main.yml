@@ -1,0 +1,5 @@
+---
+- name: Create a Directory
+    win_file:
+    path:"C:\\Sample"
+    state: "directory"
